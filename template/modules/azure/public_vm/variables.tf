@@ -28,6 +28,12 @@ variable "image" {
   }
 }
 
+variable "vm_size" {
+  type = string
+  default = "Standard_D2ads_v5"
+}
+
+
 variable "subscription_id" {
   type = string
   description = "Azure subscription ID"
